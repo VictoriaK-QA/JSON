@@ -1,7 +1,7 @@
 {
-	"favorite movie": "The Godfather",
-	"favorite sitcom": "Friends",
-	"favorite food": "pasta",
-	"favorite season": "autumn",
-	"country to travel": "Italy"
+	"favorite_movie": "The Godfather",
+	"favorite_sitcom": "Friends",
+	"favorite_food": "pasta",
+	"favorite_season": "autumn",
+	"country_to_travel": "Italy"
 }
