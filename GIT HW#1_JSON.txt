@@ -1,0 +1,74 @@
+GIT HW#1
+
+JSON
+1. Создать внешний репозиторий c названием JSON - GitHub + New repository
+[X] Public
+[X] Add a README file
+Create repository
+
+2. Клонировать репозиторий JSON на локальный компьютер - git clone git@github.com:VictoriaK-QA/JSON.git
+3. Внутри локального JSON создать файл “new.json” - cd JSON/      touch new.json
+4. Добавить файл под гит - git add .
+5. Закоммитить файл - git commit -m "new file"
+6. Отправить файл на внешний GitHub репозиторий - git push
+7. Отредактировать содержание файла “new.json” - написать информацию о себе (ФИО, возраст, количество домашних животных, будущая желаемая зарплата). Всё написать в формате JSON - vim new.json
+Нажать i
+
+{
+   "name": "Виктория",
+   "age": 28,
+   "pet": 1,
+   "salary": 300
+ }
+
+Нажать Esc :wq Enter
+
+8. Отправить изменения на внешний репозиторий - git commit -am "new file" git push
+9. Создать файл preferences.json - touch preferences.json
+10. В файл preferences.json добавить информацию о своих предпочтениях (Любимый фильм, любимый сериал, любимая еда, любимое время года, сторона которую хотели бы посетить) в формате JSON - vim preferences.json
+Нажать i
+
+{
+   "favorite_movie": "The Godfather",
+   "favorite_sitcom": "Friends",
+   "favorite_food": "pasta",
+   "favorite_season": "autumn",
+   "country_to_travel": "Italy"
+}
+
+Нажать Esc :wq Enter
+
+11. Создать файл skills.json добавить информацию о скиллах которые будут изучены на курсе в формате JSON - touch skills.json 
+vim skills.json 
+Нажать i
+
+{
+   "skills":["Testing Theory", "Client server", "SQL", "Postman", "Charles Fiddler Sniffing", "Web Services", "Git Linux Terminal", "DevTools", "Mobile Testing", "Web Testing", "Load testing"]
+}
+
+Нажать Esc :wq Enter
+
+12. Отправить сразу 2 файла на внешний репозиторий - git add . 
+git commit -m "info about skills and preferences" 
+git push
+
+13. На веб интерфейсе создать файл bug_report.json - Нажать Add file + Create new file 
+Имя файла bug_report.json
+14. Сделать Commit changes (сохранить) изменения на веб интерфейсе - Нажать Commit new file
+15. На веб интерфейсе модифицировать файл bug_report.json, добавить баг репорт в формате JSON - Нажать Edit this file
+
+{
+ "ID": "BR-14",
+ "Title": "What?Where?When?",
+ "Severity": "Minor",
+ "Priority": "Medium", 
+ "Precondition": "Preparation steps",
+ "Environment": "Devices",
+ "STR": "Steps to restore",
+ "ER": "Expected result",
+ "AR": "Actual Result",
+ "Attachment": "link"
+}
+
+16. Сделать Commit changes (сохранить) изменения на веб интерфейсе - Нажать Commit changes
+17. Синхронизировать внешний и локальный репозиторий JSON - git pull
