@@ -15,7 +15,9 @@
 
  3. Внутри локального JSON создать файл “new.json” 
  
- <code> <b>cd JSON/</b> </code>  <code> <b>touch new.json</b> </code>
+ <code> <b>cd JSON/</b> </code>  
+ 
+ <code> <b>touch new.json</b> </code>
 
  4. Добавить файл под гит 
  
@@ -46,7 +48,9 @@
 
  8. Отправить изменения на внешний репозиторий 
  
- <code> <b>git commit -am "new file"</b> </code> <b>git push</b> </code>
+ <code> <b>git commit -am "new file"</b> </code> 
+ 
+ <code> <b>git push</b> </code>
   
  9. Создать файл preferences.json 
  
